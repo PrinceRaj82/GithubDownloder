@@ -19,7 +19,7 @@ export function Navbar({ onSearchStateChange }: NavbarProps) {
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center space-x-2">
             <Github className="h-6 w-6 text-accent" />
-            <span className="hidden sm:inline-block font-bold text-xl bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="hidden sm:inline-block font-bold text-xl gradient-text">
               RepoGrabber
             </span>
           </Link>
@@ -63,7 +63,7 @@ export function Navbar({ onSearchStateChange }: NavbarProps) {
                 >
                   <Avatar className="h-8 w-8 border border-border/50">
                     <AvatarFallback className="bg-accent/10 text-accent">RP</AvatarFallback>
-                    <AvatarImage src="https://github.com/rajkumarprince.png" alt="Rajkumar Prince" />
+                    <AvatarImage src="https://avatars.githubusercontent.com/u/181560321?v=4" alt="Rajkumar Prince" />
                   </Avatar>
                   <span className="hidden md:inline-flex items-center gap-1">
                     <span>Created by Rajkumar Prince</span>

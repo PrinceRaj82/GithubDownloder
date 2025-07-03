@@ -4,9 +4,16 @@ import { Footer } from "@/components/layout/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { ArrowRight, Github, FileIcon, FolderIcon, Download } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 export default function Guide() {
   return (
+    <>
+  <Helmet>
+        <title>Guide | RepoGrabber</title>
+        <meta name="description" content="Step-by-step guide on using RepoGrabber to download GitHub code." />
+        <link rel="canonical" href="https://repograbber.utilexa.site/guide" />
+      </Helmet>
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-1 container py-8">
@@ -251,5 +258,6 @@ export default function Guide() {
       </main>
       <Footer />
     </div>
+    </>
   );
 }
