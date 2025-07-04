@@ -259,5 +259,10 @@ export default function Guide() {
       <Footer />
     </div>
     </>
+
+
+
+
+
   );
 }

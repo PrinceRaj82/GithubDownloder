@@ -30,7 +30,7 @@ export default function Index() {
         <title>RepoGrabber - Download GitHub Repos Without Git</title>
         <meta
           name="description"
-          content="Download GitHub repositories, folders, and files without Git. Free, fast, and secure."
+          content="Download GitHub repositories,files  and folder without Git. Free, fast, and secure."
         />
         <link rel="canonical" href="https://repograbber.utilexa.site/" />
       </Helmet>
